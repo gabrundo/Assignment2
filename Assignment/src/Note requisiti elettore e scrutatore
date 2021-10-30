@@ -1,20 +1,24 @@
-Requisiti utente (utente è superclasse di Elettore e Scrutatore:
+Requisiti utente (utente è superclasse di Elettore e Scrutatore):
 	- identità (nomeutente e password) è ciò che definisce utente
 	- accesso deve essere fatto sia per elettore che per scrutatore
-Requisiti funzionali elettore:
-	- l'elettore deve essere maggiorenne (documento di riconoscimento con nome, cognome e data 
-	  di nascita) 
-	- l'elettore deve avere una tessera elettorale valida (tessera elettorale con nome e cognome
-	  e data di scadenza)
 	  
-Osservazione -- da sistemare:
-	In un dato istante di tempo è possibile definire un solo Scrutatore per sessione di voto 
-	(sessione elettorale), quindi per iniziare una nuova sessione deve essere conclusa quella
-	precedente.
+Osservazioni:
+	- identità digitale (ID) identifica univocamente una persona fisica (utente).
+	  Da qualche parte sono memorizzati tutti i username e password che il sistema usa per 
+	  verificare diritto di voto e accesso al sistema.
+	- Elettore e scrutatore hanno un ID
+	- Uno scrutatore ha un attributo qualifica che, in modo simile all'identità digitale, il 
+	  sistema utilizza per verificare che lo scrutatore abbia effettivamente quel ruolo.
 	
 Requisiti funzionali scrutatore:
 	- sessione di voto (stringa, che identifica la sessione es "Amministrative 2021", e due date 
 	  di inizio e fine sessione, che mostrano in che periodo è possibile votare)
 	- deve validare l'elettore
 	- deve specificare una modalità di voto
-	- deve specificare una lista di candidati	  
+	- deve specificare una lista di candidati
+	
+Requisiti funzionali elettore:
+	- l'elettore deve essere maggiorenne (documento di riconoscimento con nome, cognome e data 
+	  di nascita) 
+	- l'elettore deve avere una tessera elettorale valida (tessera elettorale con nome e cognome
+	  e data di scadenza)
