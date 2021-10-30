@@ -11,7 +11,7 @@ abstract class Utente {
 	}
 	
 	/**
-	 * Post-condizioni: permette al utente, tramite verifica di username e password,
+	 * Post condizioni: permette al utente, tramite verifica di username e password,
 	 * 					di accedere al sistema.
 	 */
 	public abstract void accedi();
