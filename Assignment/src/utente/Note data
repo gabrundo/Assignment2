@@ -1,0 +1,22 @@
+Note classe Data, che serve per altre classi come documento di identità e carta elettorale
+
+package utente;
+
+import java.lang.Comparable;
+
+public class Data implements Comparable {
+
+	private final int giorno, mese, anno;
+	
+	public Data(int gg, int mm, int aaaa) {
+		giorno = gg;
+		mese = mm;
+		anno = aaaa;
+	}
+	
+	@Override
+	public int compareTo(Object arg0) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}
