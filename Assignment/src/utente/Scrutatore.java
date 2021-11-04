@@ -2,6 +2,7 @@ package utente;
 
 public class Scrutatore extends Utente {
 	
+	@SuppressWarnings("unused")
 	private boolean qualifica;
 
 	public Scrutatore(String name, String pass) {
