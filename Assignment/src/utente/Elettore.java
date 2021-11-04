@@ -15,5 +15,12 @@ public class Elettore extends Utente {
 		// TODO Auto-generated method stub
 
 	}
-
+	
+	/**
+	 * Post-condizioni: restituisce true se i documenti dell'elettore sono validi, false altrimenti. 
+	 */
+	public boolean documentiValidi() {
+		return false;
+	}
+	
 }

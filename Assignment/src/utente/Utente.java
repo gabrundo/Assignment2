@@ -2,9 +2,8 @@ package utente;
 
 abstract class Utente {
 	
-	//Identità
+	//Identità digitale
 	protected String username, password;
-	
 	
 	public Utente(String name, String pass) {
 

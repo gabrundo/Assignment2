@@ -1,6 +1,6 @@
 Requisiti utente (utente è superclasse di Elettore e Scrutatore):
-	- identità (nomeutente e password) è ciò che definisce utente
-	- accesso deve essere fatto sia per elettore che per scrutatore
+	- identità (nomeutente e password)
+	- accesso al sistema deve essere fatto sia per elettore che per scrutatore
 	  
 Osservazioni:
 	- identità digitale (ID) identifica univocamente una persona fisica (utente).
